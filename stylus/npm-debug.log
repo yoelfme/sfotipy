@@ -1,0 +1,204 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'uglify-js', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'uglify-js', null ]
+5 verbose cache add name=undefined spec="uglify-js" args=["uglify-js",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'uglify-js',
+6 verbose parsed url   path: 'uglify-js',
+6 verbose parsed url   href: 'uglify-js' }
+7 silly lockFile d31cae06-uglify-js uglify-js
+8 verbose lock uglify-js /Users/yoel/.npm/d31cae06-uglify-js.lock
+9 silly lockFile d31cae06-uglify-js uglify-js
+10 silly lockFile d31cae06-uglify-js uglify-js
+11 verbose addNamed [ 'uglify-js', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 679a1028-uglify-js uglify-js@
+14 verbose lock uglify-js@ /Users/yoel/.npm/679a1028-uglify-js.lock
+15 silly addNameRange { name: 'uglify-js', range: '*', hasData: false }
+16 verbose request where is /uglify-js
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 1598e50d79461aa6
+19 verbose url raw /uglify-js
+20 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
+21 verbose url resolved https://registry.npmjs.org/uglify-js
+22 verbose request where is https://registry.npmjs.org/uglify-js
+23 info trying registry request attempt 1 at 09:14:44
+24 verbose etag "DTIB9AMFLOCDVEKJBJUM50OO2"
+25 http GET https://registry.npmjs.org/uglify-js
+26 http 200 https://registry.npmjs.org/uglify-js
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Wed, 10 Dec 2014 15:14:47 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+27 silly registry.get     etag: '"ACPOIJEU7ACWUR3CT6F4EOD24"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '84537',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '12',
+27 silly registry.get     'x-served-by': 'cache-jfk1026-JFK',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1418224487.575245,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'uglify-js', range: '*', hasData: true }
+29 silly addNameRange versions [ 'uglify-js',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.2',
+29 silly addNameRange     '1.0.3',
+29 silly addNameRange     '1.0.4',
+29 silly addNameRange     '1.0.5',
+29 silly addNameRange     '1.0.6',
+29 silly addNameRange     '1.0.7',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.1.1',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.2.1',
+29 silly addNameRange     '1.2.2',
+29 silly addNameRange     '1.2.3',
+29 silly addNameRange     '1.2.4',
+29 silly addNameRange     '1.2.5',
+29 silly addNameRange     '1.2.6',
+29 silly addNameRange     '1.3.0',
+29 silly addNameRange     '1.3.1',
+29 silly addNameRange     '1.3.2',
+29 silly addNameRange     '1.3.3',
+29 silly addNameRange     '1.3.4',
+29 silly addNameRange     '2.2.0',
+29 silly addNameRange     '2.2.1',
+29 silly addNameRange     '2.2.2',
+29 silly addNameRange     '2.2.3',
+29 silly addNameRange     '2.2.4',
+29 silly addNameRange     '2.2.5',
+29 silly addNameRange     '2.3.0',
+29 silly addNameRange     '2.3.1',
+29 silly addNameRange     '2.3.2',
+29 silly addNameRange     '2.3.3',
+29 silly addNameRange     '2.3.4',
+29 silly addNameRange     '2.3.5',
+29 silly addNameRange     '2.3.6',
+29 silly addNameRange     '1.3.5',
+29 silly addNameRange     '2.4.0',
+29 silly addNameRange     '2.4.1',
+29 silly addNameRange     '2.4.2',
+29 silly addNameRange     '2.4.3',
+29 silly addNameRange     '2.4.4',
+29 silly addNameRange     '2.4.5',
+29 silly addNameRange     '2.4.6',
+29 silly addNameRange     '2.4.7',
+29 silly addNameRange     '2.4.8',
+29 silly addNameRange     '2.4.9',
+29 silly addNameRange     '2.4.10',
+29 silly addNameRange     '2.4.11',
+29 silly addNameRange     '2.4.12',
+29 silly addNameRange     '2.4.13',
+29 silly addNameRange     '2.4.14',
+29 silly addNameRange     '2.4.15',
+29 silly addNameRange     '2.4.16' ] ]
+30 verbose addNamed [ 'uglify-js', '2.4.16' ]
+31 verbose addNamed [ '2.4.16', '2.4.16' ]
+32 silly lockFile 20fcf559-uglify-js-2-4-16 uglify-js@2.4.16
+33 verbose lock uglify-js@2.4.16 /Users/yoel/.npm/20fcf559-uglify-js-2-4-16.lock
+34 silly lockFile 7dff44d4-g-uglify-js-uglify-js-2-4-16-tgz https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.16.tgz
+35 verbose lock https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.16.tgz /Users/yoel/.npm/7dff44d4-g-uglify-js-uglify-js-2-4-16-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.16.tgz',
+36 verbose addRemoteTarball   '84143487eb480efd7d0789c7ecfbd48a695839f9' ]
+37 info retry fetch attempt 1 at 09:14:50
+38 verbose fetch to= /var/folders/1q/j363by397_zf3h6tjhg9g6580000gn/T/npm-14657-a3FnJ7uL/registry.npmjs.org/uglify-js/-/uglify-js-2.4.16.tgz
+39 http GET https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.16.tgz
+40 http 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.16.tgz
+41 silly lockFile 7dff44d4-g-uglify-js-uglify-js-2-4-16-tgz https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.16.tgz
+42 silly lockFile 7dff44d4-g-uglify-js-uglify-js-2-4-16-tgz https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.16.tgz
+43 silly lockFile 20fcf559-uglify-js-2-4-16 uglify-js@2.4.16
+44 silly lockFile 20fcf559-uglify-js-2-4-16 uglify-js@2.4.16
+45 silly lockFile 679a1028-uglify-js uglify-js@
+46 silly lockFile 679a1028-uglify-js uglify-js@
+47 silly resolved [ { name: 'uglify-js',
+47 silly resolved     description: 'JavaScript parser, mangler/compressor and beautifier toolkit',
+47 silly resolved     homepage: 'http://lisperator.net/uglifyjs',
+47 silly resolved     main: 'tools/node.js',
+47 silly resolved     version: '2.4.16',
+47 silly resolved     engines: { node: '>=0.4.0' },
+47 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly resolved     repository: { type: 'git', url: 'https://github.com/mishoo/UglifyJS2.git' },
+47 silly resolved     dependencies:
+47 silly resolved      { async: '~0.2.6',
+47 silly resolved        'source-map': '0.1.34',
+47 silly resolved        optimist: '~0.3.5',
+47 silly resolved        'uglify-to-browserify': '~1.0.0' },
+47 silly resolved     devDependencies:
+47 silly resolved      { acorn: '~0.6.0',
+47 silly resolved        escodegen: '~1.3.3',
+47 silly resolved        esfuzz: '~0.3.1',
+47 silly resolved        estraverse: '~1.5.1' },
+47 silly resolved     browserify: { transform: [Object] },
+47 silly resolved     bin: { uglifyjs: 'bin/uglifyjs' },
+47 silly resolved     license: 'BSD',
+47 silly resolved     scripts: { test: 'node test/run-tests.js' },
+47 silly resolved     gitHead: '5538ec7bd8a64c7fcc45895308a8463e4ca4d00a',
+47 silly resolved     bugs: { url: 'https://github.com/mishoo/UglifyJS2/issues' },
+47 silly resolved     _id: 'uglify-js@2.4.16',
+47 silly resolved     _shasum: '84143487eb480efd7d0789c7ecfbd48a695839f9',
+47 silly resolved     _from: 'uglify-js@',
+47 silly resolved     _npmVersion: '1.4.14',
+47 silly resolved     _npmUser: { name: 'mishoo', email: 'mihai.bazon@gmail.com' },
+47 silly resolved     dist:
+47 silly resolved      { shasum: '84143487eb480efd7d0789c7ecfbd48a695839f9',
+47 silly resolved        tarball: 'http://registry.npmjs.org/uglify-js/-/uglify-js-2.4.16.tgz' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.16.tgz' } ]
+48 info install uglify-js@2.4.16 into /usr/local/lib
+49 info installOne uglify-js@2.4.16
+50 verbose lib/node_modules/uglify-js unbuild
+51 verbose tar unpack /Users/yoel/.npm/uglify-js/2.4.16/package.tgz
+52 silly lockFile 8b726fda-local-lib-node-modules-uglify-js tar:///usr/local/lib/node_modules/uglify-js
+53 verbose lock tar:///usr/local/lib/node_modules/uglify-js /Users/yoel/.npm/8b726fda-local-lib-node-modules-uglify-js.lock
+54 silly lockFile eade8fa1-npm-uglify-js-2-4-16-package-tgz tar:///Users/yoel/.npm/uglify-js/2.4.16/package.tgz
+55 verbose lock tar:///Users/yoel/.npm/uglify-js/2.4.16/package.tgz /Users/yoel/.npm/eade8fa1-npm-uglify-js-2-4-16-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 error Error: EACCES, mkdir '/usr/local/lib/node_modules/uglify-js'
+57 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/uglify-js']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/local/lib/node_modules/uglify-js',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/local/lib/node_modules/uglify-js',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:107:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Darwin 14.0.0
+60 error command "node" "/usr/local/bin/npm" "install" "uglify-js" "-g"
+61 error cwd /Users/yoel/Code/mejorandola/frontendprofesional/sfotipy/stylus
+62 error node -v v0.10.32
+63 error npm -v 1.4.28
+64 error path /usr/local/lib/node_modules/uglify-js
+65 error fstream_path /usr/local/lib/node_modules/uglify-js
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/uglify-js'
+71 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:107:15)
+72 verbose exit [ 3, true ]
